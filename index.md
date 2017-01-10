@@ -9,3 +9,7 @@ Talks:
 **{{ talk.title }}** - [(Slides)]({{ talk.url | relative_url }})
 
 {% endfor %}
+
+
+
+Powered by the [S6 slideshow templates / machinery / kit](http://slidekit.github.io).

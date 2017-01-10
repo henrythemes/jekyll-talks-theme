@@ -23,5 +23,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+sass:
+  sass_dir: css
+  style: expanded
+
 exclude:
 - README.md
