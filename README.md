@@ -7,7 +7,7 @@ A jekyll theme for talks using the
 
 ## Live Demo
 
-See a live demo @ [`slidekit.github.io/jekyll-talks-theme` »](http://slidekit.github.io/jekyll-talks-theme)
+See a live demo @ [`henrythemes.github.io/jekyll-talks-theme` »](http://henrythemes.github.io/jekyll-talks-theme)
 
 
 
