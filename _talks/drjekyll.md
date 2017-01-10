@@ -1,5 +1,6 @@
 ---
 title:  Dr Jekyll and Mr Hyde - Build Static Sites in Ruby
+author: Gerald Bauer
 ---
 
 

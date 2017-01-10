@@ -1,7 +1,7 @@
 ---
-title:     Sample 1 - Habits
+title:     Starter Sample - Habits
 author:    John Doe
-date:      March 22, 2016
+date:      March 22, 2017
 ---
 
 
@@ -46,7 +46,7 @@ date:      March 22, 2016
 
 <!-- @SLIDE -->
 
-![](i/slideshow.png)
+![](../i/slideshow.png)
 
 
 <!--

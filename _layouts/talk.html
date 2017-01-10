@@ -10,7 +10,17 @@ layout: talk-base
 
 <div class="slide">
   <h1>{{ page.title }}</h1>
+  <h2>{{ page.author }}</h2>
+  <h3>{{ page.date }}</h3>
+
+  <p>
+    Usage: <br>
+    Use space to browse slides.<br>
+    Use the key t (for toggle) to toggle between
+    presentation and overview mode.<br>
+  </p>
 </div><!-- slide -->
+
 
 {% assign slides = content | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
                            | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
