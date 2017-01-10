@@ -1,0 +1,21 @@
+
+title: Jekyll Talks Theme Sample
+
+
+collections:
+  talks:
+    output: true
+    permalink: :name.html    # note: use a "flat" page space (that is, no folders like talks/ etc.)
+
+
+#########################
+# more settings
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+- README.md
