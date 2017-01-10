@@ -26,7 +26,10 @@ $font-size-code:   140%;    // 16pt / 22px
 
 /////////////////////////////
 
-body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  }
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: $font-size-text;
+}
 
 a:link,
 a:visited { color: $color; }
@@ -67,6 +70,14 @@ td, th {
 ul {
   list-style-type: square;
 }
+
+
+// try fix for chrome (nested listed items use large font - why????)
+// li {
+//  ul, li {
+//    font-size: $font-size-text;
+//  }
+// }
 
 
 pre {
