@@ -10,7 +10,7 @@ layout: talk-base
 
 <div class="slide">
   <h1>{{ page.title }}</h1>
-</div>
+</div><!-- slide -->
 
 {% assign slides = content | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
                            | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
@@ -21,5 +21,5 @@ layout: talk-base
 {% for slide in slides %}
 <div class="slide">
   {{ slide }}
-<div><!-- slide -->
+</div><!-- slide -->
 {% endfor %}
