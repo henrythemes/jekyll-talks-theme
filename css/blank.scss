@@ -59,17 +59,17 @@ a:visited { color: $color; }
 }
 
 
-
-p,
-ul, ol, li,
-dt, dd,
-td, th {
-  font-size: $font-size-text;
-}
-
 ul {
   list-style-type: square;
 }
+
+
+// p,
+// ul, ol, li,
+// dt, dd,
+// td, th {
+//  font-size: $font-size-text;
+// }
 
 
 // try fix for chrome (nested listed items use large font - why????)
