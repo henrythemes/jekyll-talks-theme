@@ -1,0 +1,25 @@
+---
+layout: talk-base
+
+# note: use this layout template to split/break content into slides
+#   for now use heading 1 (h1) for breaks
+#    skip "plain" h1 e.g. <h1>
+#    only break on <h1 id=      or
+#                  <h1 class=
+---
+
+<div class="slide">
+  <h1>{{ page.title }}</h1>
+</div>
+
+{% assign slides = content | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
+                           | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
+                           | replace_first: '<!-- @SLIDE -->', ''
+                           | split: '<!-- @SLIDE -->'
+ %}
+
+{% for slide in slides %}
+<div class="slide">
+  {{ slide }}
+<div><!-- slide -->
+{% endfor %}

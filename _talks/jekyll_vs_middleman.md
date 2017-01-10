@@ -1,5 +1,5 @@
 ---
-title: Stay Static - Jekyll vs Middleman -  Build Static (Web) Sites w/ Ruby
+title:  Stay Static - Jekyll vs Middleman -  Build Static (Web) Sites w/ Ruby
 ---
 
 

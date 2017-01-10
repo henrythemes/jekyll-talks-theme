@@ -1,5 +1,5 @@
 ---
-title: Dr Jekyll and Mr Hyde - Build Static Sites in Ruby
+title:  Dr Jekyll and Mr Hyde - Build Static Sites in Ruby
 ---
 
 
