@@ -1,0 +1,78 @@
+---
+# add front matter here
+---
+
+////////
+// variables for easy configuration
+//
+// (note: this is a sass/scss extendend css script,
+//            to learn more about sass; see sass-lang.org)
+
+
+$color:                  black;
+$color-step-hidden:      silver;
+
+$background-color-code:  azure;
+
+
+// --- font size
+
+$font-size-h1:     245%;    // 30pt / 40px    (assuming 100% => 12pt / 16px)
+$font-size-h2:     230%;    // 28pt / 37px
+$font-size-h3:     200%;    // 24pt / 32px
+$font-size-text:   150%;    // 18pt / 24px
+$font-size-code:   140%;    // 16pt / 22px
+
+
+/////////////////////////////
+
+body { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  }
+
+a:link,
+a:visited { color: $color; }
+
+
+.slide {
+
+  color: $color;
+
+  h1 {   font-size: $font-size-h1;
+         text-align: center;
+
+       &.fullscreen { position: absolute;
+                      top: 40%;
+                      width: 100%; }
+
+       // lets you create slides with no heading (that is, heading gets hidden but included in toc)
+       &.hidden     { display: none; }
+      }
+
+  h2 { font-size: $font-size-h2; }
+
+  h3 { font-size: $font-size-h3; }
+
+  .stepcurrent { color: $color; }
+  .step        { color: $color-step-hidden; }  // or hide next steps e.g. .step { visibility: hidden; }
+}
+
+
+ul { list-style-type: square; }
+
+
+p, li, dt, dd, td, th { font-size: $font-size-text; }
+
+
+pre { font-size: $font-size-code; }
+
+.code {
+        background-color: $background-color-code;
+        padding: 5px;
+      }
+
+.footnote a:first-of-type  { text-decoration: none; }
+
+p.footnote { font-size: 88%; }
+
+.help {
+  p, td  { font-size: 88%; }
+}
