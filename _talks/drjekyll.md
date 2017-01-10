@@ -12,8 +12,8 @@ author: Gerald Bauer
 - What is Markdown?
 - The World's Greatest (Jekyll) Static Sites
 - Getting Started with Jekyll
-    - Quick Start
-    - Folder Structure
+  - Quick Start
+  - Folder Structure
 - What's Dr Jekyll?
 - The World's Greatest (Jekyll) Static Sites Themes
 - What's Mr Hyde?
@@ -149,7 +149,7 @@ The world's first Jekyll static site - surprise, surprise -
 Tom Preston-Werner - Blogging Like a Hacker
 
 
-![](i/showcase-tom-preston-werner.png)
+![](../i/showcase-tom-preston-werner.png)
 
 [[Live]](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
 [[Source]](https://github.com/mojombo/mojombo.github.io)
@@ -162,7 +162,7 @@ Not just about blogs e.g.
 
 Jekyll - Simple, blog-aware, static sites
 
-![](i/showcase-jekyllrb.png)
+![](../i/showcase-jekyllrb.png)
 
 [[Live]](http://jekyllrb.com)
 [[Source]](https://github.com/jekyll/jekyll/tree/master/site)
@@ -175,7 +175,7 @@ More (world famous) project sites:
 Bootstrap - The World's Most Popular Mobile-First
 and Responsive Front-End Framework
 
-![](i/showcase-bootstrap.png)
+![](../i/showcase-bootstrap.png)
 
 [[Live]](http://getbootstrap.com)
 [[Source]](https://github.com/twbs/bootstrap/tree/master/docs)
@@ -184,14 +184,14 @@ and Responsive Front-End Framework
 Electron (Atom Shell) - Build Cross Platform Desktop Apps
 with Web Technologies
 
-![](i/showcase-electron.png)
+![](../i/showcase-electron.png)
 
 [[Live]](http://electron.atom.io)
 [[Source]](https://github.com/atom/electron.atom.io)
 
 Polymer - Build Modern Apps Using Web Components
 
-![](i/showcase-polymer-docs.png)
+![](../i/showcase-polymer-docs.png)
 
 [[Live]](https://polymer-project.org)
 [[Source]](https://github.com/Polymer/docs)
@@ -206,7 +206,7 @@ More than just project sites e.g.
 
 PHP: The Right Way - A Living Free Online Book
 
-![](i/showcase-php-the-right-way.png)
+![](../i/showcase-php-the-right-way.png)
 
 [[Live]](http://www.phptherightway.com)
 [[Source]](https://github.com/codeguy/php-the-right-way)
@@ -215,7 +215,7 @@ PHP: The Right Way - A Living Free Online Book
 Open Data Handbook v2 - Guides, Case Studies and Resources
 for Government 'n' Civil Society on the What, Why 'n' How of Open Data
 
-![](i/showcase-opendatahandbook.png)
+![](../i/showcase-opendatahandbook.png)
 
 [[Live]](http://opendatahandbook.org)
 [[Source]](https://github.com/okfn/opendatahandbook)
@@ -224,7 +224,7 @@ for Government 'n' Civil Society on the What, Why 'n' How of Open Data
 The Free World Beer Book - Auto-Build Using Open Public Domain
 Beer, Brewery 'n' Brewpub Data (Work-in-Progress)
 
-![](i/showcase-openbeerbook.png)
+![](../i/showcase-openbeerbook.png)
 
 [[Live]](http://openbeer.github.io/book/cz.html)
 [[Source]](https://github.com/openbeer/book)
@@ -405,13 +405,13 @@ And so on and so forth.
 
 Poole's Hyde by Mark Otto (License: MIT)
 
-![](i/poole-hyde.png)
+![](../i/poole-hyde.png)
 
 [[Live Demo]](http://hyde.getpoole.com)
 
 Poole's Lanyon by Mark Otto (License: MIT)
 
-![](i/poole-lanyon.png)
+![](../i/poole-lanyon.png)
 
 [[Live Demo]](http://lanyon.getpoole.com)
 
@@ -421,19 +421,19 @@ Poole's Lanyon by Mark Otto (License: MIT)
 
 Planet Jekyll's Starter (Minimal) (License: Public Domain)
 
-![](i/planet-jekyll-starter.png)
+![](../i/planet-jekyll-starter.png)
 
 [[Live Demo]](http://planetjekyll.github.io/jekyll-starter-theme)
 
 Dr Jekyll's Bootstrap (License: Public Domain)
 
-![](i/drjekyll-bootstrap.png)
+![](../i/drjekyll-bootstrap.png)
 
 [[Live Demo]](http://drjekyllthemes.github.io/jekyll-bootstrap-theme)
 
 Dr Jekyll's Classics Book (License: Public Domain)
 
-![](i/drjekyll-book.png)
+![](../i/drjekyll-book.png)
 
 [[Live Demo]](http://drjekyllthemes.github.io/jekyll-book-theme)
 
@@ -443,20 +443,20 @@ Dr Jekyll's Classics Book (License: Public Domain)
 
 Single Paged by Tim O'Brien (License: MIT)
 
-![](i/jekyll-singlepaged.png)
+![](../i/jekyll-singlepaged.png)
 
 [[Live Demo]](http://t413.com/SinglePaged)
 
 Grid Gallery by Nii Adjetey Sowah (License: WTF)
 
-![](i/jekyll-gridgallery.png)
+![](../i/jekyll-gridgallery.png)
 
 [[Live Demo]](https://nadjetey.github.io/GridGallery)
 
 
 iCard Resume by Dong Liang (License: MIT)
 
-![](i/jekyll-icard-resume.png)
+![](../i/jekyll-icard-resume.png)
 
 [[Live Demo]](http://ddbullfrog.github.io/iCard-Resume)
 
@@ -581,4 +581,4 @@ a static site datafile. Yes, you can.
 Present about a great static site generator, tool, or
 practice, for example.
 
-![](i/viennahtml.png)
+![](../i/viennahtml.png)

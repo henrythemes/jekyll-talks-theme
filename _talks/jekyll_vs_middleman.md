@@ -26,7 +26,7 @@ web: [`middlemanapp.com`](https://middlemanapp.com),
 github: [`middleman/middleman`](https://github.com/middleman/middleman),
 gem: [`middleman`](https://rubygems.org/gems/middleman)
 
-![](i/staticgen-middleman.png)
+![](../i/staticgen-middleman.png)
 
 Static Site Spotlight:
 
@@ -46,7 +46,7 @@ web: [`jekyllrb.com`](http://jekyllrb.com),
 github: [`jekyll/jekyll`](https://github.com/jekyll/jekyll),
 gem: [`jekyll`](https://rubygems.org/gems/jekyll)
 
-![](i/staticgen-jekyll.png)
+![](../i/staticgen-jekyll.png)
 
 Static Site Spotlight:
 
