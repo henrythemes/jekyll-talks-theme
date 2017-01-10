@@ -56,18 +56,30 @@ a:visited { color: $color; }
 }
 
 
-ul { list-style-type: square; }
+
+p, li, dt, dd, td, th {
+  font-size: $font-size-text;
+}
+
+ul {
+  list-style-type: square;
+
+  li, p { font-size: $font-size-text; }
+}
 
 
-p, li, dt, dd, td, th { font-size: $font-size-text; }
+pre {
+      font-size: $font-size-code;
+      background-color: $background-color-code;
+      padding: 5px;
+    }
 
 
-pre { font-size: $font-size-code; }
+// code {
+//      font-size: $font-size-code;
+//      background-color: $background-color-code;
+// }
 
-.code {
-        background-color: $background-color-code;
-        padding: 5px;
-      }
 
 .footnote a:first-of-type  { text-decoration: none; }
 
