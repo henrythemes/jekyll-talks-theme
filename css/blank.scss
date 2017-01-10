@@ -64,22 +64,6 @@ ul {
 }
 
 
-// p,
-// ul, ol, li,
-// dt, dd,
-// td, th {
-//  font-size: $font-size-text;
-// }
-
-
-// try fix for chrome (nested listed items use large font - why????)
-// li {
-//  ul, li {
-//    font-size: $font-size-text;
-//  }
-// }
-
-
 pre {
       font-size: $font-size-code;
       background-color: $background-color-code;
