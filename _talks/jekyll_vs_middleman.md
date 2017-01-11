@@ -34,7 +34,7 @@ Static Site Spotlight:
 [ROSSConf](https://github.com/rossconf/rossconf.io) •
 [EuRuKo 2016](https://github.com/euruko/euruko2016.github.io) •
 [Sass Language](https://github.com/sass/sass-site) •
-[Stay Static](https://github.com/staystatic/middleman) •
+[Stay Static](https://github.com/staystatic/staystatic/tree/master/middleman) •
 [Many More](https://middlemanapp.com/community/built_using_middleman)
 
 
@@ -60,7 +60,7 @@ Static Site Spotlight:
 [Stack Overflow Blog](https://github.com/StackExchange/stack-blog) •
 [PHP: The Right Way](https://github.com/codeguy/php-the-right-way) •
 [Open Data Handbook v2](https://github.com/okfn/opendatahandbook) •
-[Stay Static](https://github.com/staystatic/jekyll) •
+[Stay Static](https://github.com/staystatic/staystatic/tree/master/jekyll) •
 [Many More](https://github.com/jekyll/jekyll/wiki/Sites)
 [And More](http://planetjekyll.github.io/showcase)
 
@@ -84,7 +84,7 @@ Static Site Spotlight:
 </html>
 ```
 
-(Source: [`staystatic/middleman/layouts/layout.erb`](https://github.com/staystatic/middleman/blob/master/source/layouts/layout.erb))
+(Source: [`staystatic/middleman/layouts/layout.erb`](https://github.com/staystatic/staystatic/blob/master/middleman/source/layouts/layout.erb))
 
 
 # Middleman or Jekyll?  - HTML Templates (Cont.)
@@ -108,7 +108,7 @@ Static Site Spotlight:
 {% endraw %}
 ```
 
-(Source: [`staystatic/jekyll/_layouts/default.html`](https://github.com/staystatic/jekyll/blob/master/_layouts/default.html))
+(Source: [`staystatic/jekyll/_layouts/default.html`](https://github.com/staystatic/staystatic/blob/master/jekyll/_layouts/default.html))
 
 
 
@@ -134,7 +134,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
 ...
 ```
 
-(Source: [`staystatic/middleman/source/posts/2014-11-11-new-repo-maps.html.md`](https://github.com/staystatic/middleman/blob/master/source/posts/2014-11-11-new-repo-maps.html.md))
+(Source: [`staystatic/middleman/source/posts/2014-11-11-new-repo-maps.html.md`](https://github.com/staystatic/staystatic/blob/master/middleman/source/posts/2014-11-11-new-repo-maps.html.md))
 
 
 
@@ -159,7 +159,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
 ...
 ```
 
-(Source: [`staystatic/jekyll/_posts/2014-11-11-new-repo-maps.md`](https://github.com/staystatic/jekyll/blob/master/_posts/2014-11-11-new-repo-maps.md))
+(Source: [`staystatic/jekyll/_posts/2014-11-11-new-repo-maps.md`](https://github.com/staystatic/staystatic/blob/master/jekyll/_posts/2014-11-11-new-repo-maps.md))
 
 
 
@@ -181,7 +181,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
   url:   https://github.com/openmundi
 ```
 
-(Source: [`staystatic/middleman/data/links.yml`](https://github.com/staystatic/middleman/blob/master/data/links.yml))
+(Source: [`staystatic/middleman/data/links.yml`](https://github.com/staystatic/staystatic/blob/master/middleman/data/links.yml))
 
 
 
@@ -203,7 +203,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
   url:   https://github.com/openmundi
 ```
 
-(Source: [`staystatic/jekyll/_data/links.yml`](https://github.com/staystatic/jekyll/blob/master/_data/links.yml))
+(Source: [`staystatic/jekyll/_data/links.yml`](https://github.com/staystatic/staystatic/blob/master/jekyll/_data/links.yml))
 
 
 # Middleman or Jekyll?  - HTML Templates - Loops
@@ -232,7 +232,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
 </div>
 ```
 
-(Source: [`staystatic/middleman/source/index.html.erb`](https://github.com/staystatic/middleman/blob/master/source/index.html.erb))
+(Source: [`staystatic/middleman/source/index.html.erb`](https://github.com/staystatic/staystatic/blob/master/middleman/source/index.html.erb))
 
 
 
@@ -266,7 +266,7 @@ See an example [beer map for Austria](http://openbeer.github.io/maps/at)
 {% endraw %}
 ```
 
-(Source: [`staystatic/jekyll/index.html`](https://github.com/staystatic/jekyll/blob/master/index.html))
+(Source: [`staystatic/jekyll/index.html`](https://github.com/staystatic/staystatic/blob/master/jekyll/index.html))
 
 
 
@@ -282,7 +282,7 @@ gem 'middleman',      '>= 4.0.0'
 gem 'middleman-blog'
 ```
 
-(Source: [`staystatic/middleman/Gemfile`](https://github.com/staystatic/middleman/blob/master/Gemfile))
+(Source: [`staystatic/middleman/Gemfile`](https://github.com/staystatic/staystatic/blob/master/middleman/Gemfile))
 
 ```
 activate :blog do |blog|
@@ -305,7 +305,7 @@ configure :build do
 end
 ```
 
-(Source: [`staystatic/middleman/config.rb`](https://github.com/staystatic/middleman/blob/master/config.rb))
+(Source: [`staystatic/middleman/config.rb`](https://github.com/staystatic/staystatic/blob/master/middleman/config.rb))
 
 
 
@@ -325,7 +325,7 @@ exclude:
 - README.md
 ```
 
-(Source: [`staystatic/jekyll/_config.yml`](https://github.com/staystatic/jekyll/blob/master/_config.yml))
+(Source: [`staystatic/jekyll/_config.yml`](https://github.com/staystatic/staystatic/blob/master/jekyll/_config.yml))
 
 
 
@@ -374,8 +374,8 @@ Use what works for you.
 **Stay Static Sample Sites (Showcase)**
 
 - [Stay Static](http://staystatic.github.io)
-  - [`/middleman`](https://github.com/staystatic/middleman)
-  - [`/jekyll`](https://github.com/staystatic/jekyll)
+  - [`/middleman`](https://github.com/staystatic/staystatic/tree/master/middleman)
+  - [`/jekyll`](https://github.com/staystatic/staystatic/tree/master/jekyll)
 
 **Articles**
 
@@ -404,4 +404,3 @@ Use what works for you.
 
 - [`staticgen.com`](http://www.staticgen.com)
 - [`staticsitegenerators.net`](https://staticsitegenerators.net)
-- [Static Site Generators @ `static-revival.com`](https://www.static-revival.com/static-site-generators/)

@@ -65,7 +65,7 @@
   <div id="header"></div>
   <div id="footer">
     <h1>{{ page.author }}</h1>
-    <h2>{{ page.date }}</h2>
+    <h2>{{ page.date | date: "%A, %B %d, %Y" }}</h2>
   </div>
 </div>
 
