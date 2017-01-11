@@ -29,3 +29,4 @@ sass:
 
 exclude:
 - README.md
+- LICENSE.md
