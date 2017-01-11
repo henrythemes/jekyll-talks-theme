@@ -1,0 +1,45 @@
+---
+# add front matter here
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="{{ 'css/themes/blank5.css' | relative_url }}"  media="screen,projection">
+    <link rel="stylesheet" href="{{ 'css/screen.css'        | relative_url }}"  media="screen">
+    <link rel="stylesheet" href="{{ 'css/print.css'         | relative_url }}"  media="print">
+
+    <link rel="stylesheet" href="{{ 'css/blank5.css'        | relative_url }}"  media="screen,projection">
+
+
+    <!-- add js libs (less, jquery) -->
+    <script src="{{ 'js/jquery-2.1.1.min.js' | relative_url }}"></script>
+
+    <!-- S6 JS -->
+    <script src="{{ 'js/jquery.slideshow.js'          | relative_url }}"></script>
+    <script src="{{ 'js/jquery.slideshow.counter.js'  | relative_url }}"></script>
+    <script src="{{ 'js/jquery.slideshow.controls.js' | relative_url }}"></script>
+    <script src="{{ 'js/jquery.slideshow.footer.js'   | relative_url }}"></script>
+    <script src="{{ 'js/jquery.slideshow.autoplay.js' | relative_url }}"></script>
+    <script>
+      $(document).ready( function() {
+        Slideshow.init();
+      } );
+    </script>
+
+  </head>
+  <body>
+
+    <section class='slides'>
+      {% include slides5.html content=content
+                              title  =page.title
+                              author =page.author
+                              date   =page.date
+       %}
+    </section>
+
+  </body>
+</html>

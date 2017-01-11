@@ -2,37 +2,33 @@
 title:     Starter Sample (Blank5 Theme) - Habits
 author:    John Doe
 date:      March 22, 2017
+layout:    blank5
 ---
 
-
 <!--
- use fullscreen css styles for a "section" slide
+    note: blank5 theme uses
+      heading1 (h1) for title (gets auto-generated :-) from front matter, see above)
+      heading2 (h2) for new sections
+      heading3 (h3) for new slides
  -->
 
-# In the morning
-{:.fullscreen}
 
+## In the morning
 
-<!--
-  use heading 1s for starting new slides
--->
-
-# Getting up
+### Getting up
 
 - Turn off alarm
 - Get out of bed
 
-# Breakfast
+### Breakfast
 
 - Eat eggs
 - Drink coffee
 
 
-# In the evening
-{:.fullscreen}
+## In the evening
 
-
-# Dinner
+### Dinner
 
 - Eat spaghetti
 - Drink wine
@@ -53,7 +49,7 @@ date:      March 22, 2017
  let's wrap up; another slide
 -->
 
-# Going to sleep
+### Going to sleep
 
 - Get in bed
 - Count sheep

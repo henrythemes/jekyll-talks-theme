@@ -1,0 +1,39 @@
+<!--
+  note: use this include "macro" to split/break content into slides
+   for now use heading 1/2/3 (h1,h2,h3) for breaks
+    skip "plain" h1/h2/h3 e.g. <h1>/<h2>/<h3>
+    only break on <h1 id=      or
+                  <h1 class=
+ -->
+
+ <article class='cover'>
+   <h1>
+     {{ include.title }}
+     <br>
+     <!-- todo: add subtitle here ?? -->
+   </h1>
+   <p>
+     {{ include.author }}
+     <br>
+     {{ include.date | date: "%A, %B %d, %Y" }}
+   </p>
+ </article>
+
+
+{% assign slides = include.content
+     | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
+     | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
+     | replace: '<h2 id=', '<!-- @SLIDE --><h2 id='
+     | replace: '<h2 class=', '<!-- @SLIDE --><h2 class='
+     | replace: '<h3 id=', '<!-- @SLIDE --><h3 id='
+     | replace: '<h3 class=', '<!-- @SLIDE --><h3 class='
+     | replace_first: '<!-- @SLIDE -->', ''
+     | split: '<!-- @SLIDE -->'
+ %}
+
+
+{% for slide in slides %}
+<article>
+  {{ slide }}
+</article>
+{% endfor %}
