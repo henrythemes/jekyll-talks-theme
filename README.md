@@ -97,7 +97,7 @@ see the styles in `css/blank.scss`.
 
 ### Blank5
 
-Use heading 1 (e.g. `#`) for the title (note: gets auto-added :-) from the front matter,
+Use heading 1 (e.g. `#`) for the title (note: gets auto-added :-) from the front matter),
 use heading 2 for section breaks and
 use heading 3 for slide breaks or
 use the `<!-- @SLIDE -->` directive for slide breaks without titles
@@ -152,8 +152,8 @@ see the styles in `css/blank5.scss`.
 
 ## Alternatives
 
-For alternative talk templates (e.g. reveal.js, deck.js, impress.js, shower, etc.)
-see the [Slide Show (S9) templates](https://github.com/slideshow-templates) (all Jekyll-compatible).
+For alternative Jekyll-compatible talk templates (e.g. reveal.js, deck.js, impress.js, shower, etc.)
+see the [Slide Show (S9) templates](https://github.com/slideshow-templates).
 
 
 ## License
