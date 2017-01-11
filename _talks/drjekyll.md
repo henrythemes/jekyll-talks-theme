@@ -190,13 +190,6 @@ with Web Technologies
 [[Live]](http://electron.atom.io)
 [[Source]](https://github.com/atom/electron.atom.io)
 
-Polymer - Build Modern Apps Using Web Components
-
-![](../i/showcase-polymer-docs.png)
-
-[[Live]](https://polymer-project.org)
-[[Source]](https://github.com/Polymer/docs)
-
 
 And Many More. See the [Planet Jekyll Showcase](http://planetjekyll.github.io/showcase).
 
@@ -227,8 +220,8 @@ Beer, Brewery 'n' Brewpub Data (Work-in-Progress)
 
 ![](../i/showcase-openbeerbook.png)
 
-[[Live]](http://openbeer.github.io/book/cz.html)
-[[Source]](https://github.com/openbeer/book)
+[[Live]](http://beerbook.github.io/cz.html)
+[[Source]](https://github.com/beerbook/beerbook.github.io)
 
 And Many More. See the [Planet Jekyll Showcase](http://planetjekyll.github.io/showcase).
 
@@ -353,10 +346,10 @@ $ drj l
 Resulting in:
 
 ```
-  1..Planet Jekyll's Starter (Minimal) (starter | planetjekyllsstarterminimal) by Gerald Bauer - #white
-  2..Dr Jekyll's Minimal (minimial | drjekyllsminimal) by Gerald Bauer - #white
-  3..Dr Jekyll's Bootstrap (bootstrap | drjekyllsbootstrap) by Gerald Bauer - #bootstrap #scss #white
-  4..Dr Jekyll's Classics Book (classics | drjekyllsclassicsbook) by Gerald Bauer - #books #white
+  1..Henry's Starter (Minimal) (starter | henrysstarterminimal) by Gerald Bauer - #white
+  2..Henry's Minimal (minimial | henryssminimal) by Gerald Bauer - #white
+  3..Henry's Bootstrap (bootstrap | henrysbootstrap) by Gerald Bauer - #bootstrap #scss #white
+  4..Henry's Classics Book (classics | henrysclassicsbook) by Gerald Bauer - #books #white
   5..Poole (poole) by Mark Otto - #poole
   6..Poole's Hyde (pooleshyde) by Mark Otto - #poole
   7..Poole's Lanyon (pooleslanyon) by Mark Otto - #poole
@@ -420,23 +413,23 @@ Poole's Lanyon by Mark Otto (License: MIT)
 
 # The World's Greatest (Jekyll) Static Sites Themes (Cont.)
 
-Planet Jekyll's Starter (Minimal) (License: Public Domain)
+Henry's Starter (Minimal) (License: Public Domain)
 
-![](../i/planet-jekyll-starter.png)
+![](../i/henry-starter.png)
 
-[[Live Demo]](http://planetjekyll.github.io/jekyll-starter-theme)
+[[Live Demo]](http://henrythemes.github.io/jekyll-starter-theme)
 
-Dr Jekyll's Bootstrap (License: Public Domain)
+Henry's Bootstrap (License: Public Domain)
 
-![](../i/drjekyll-bootstrap.png)
+![](../i/henry-bootstrap.png)
 
-[[Live Demo]](http://drjekyllthemes.github.io/jekyll-bootstrap-theme)
+[[Live Demo]](http://henrythemes.github.io/jekyll-bootstrap-theme)
 
-Dr Jekyll's Classics Book (License: Public Domain)
+Henry's Classics Book (License: Public Domain)
 
-![](../i/drjekyll-book.png)
+![](../i/henry-book.png)
 
-[[Live Demo]](http://drjekyllthemes.github.io/jekyll-book-theme)
+[[Live Demo]](http://henrythemes.github.io/jekyll-book-theme)
 
 
 
@@ -505,8 +498,8 @@ Q: Select your theme:
 
 Thanks! Ready-to-go. Stand back.
 
-  Downloading Dr. Jekyll's Bootstrap Theme...
-  Setting up Dr. Jeykll's Bootstrap Theme..
+  Downloading Henry's Bootstrap Theme...
+  Setting up Henry's Bootstrap Theme..
   ...
   Updating settings in _config.yml...
     title: "Another Beautiful Static Site"
@@ -565,21 +558,3 @@ end
 
 say "Done."
 ```
-
-
-
-# Vienna.html - Join Us - No Database Required
-
-
-### What's Vienna.html?
-
-- Europe's 1st Static Site User Group. Follow along @viennahtml
-on Twitter and sign-up on GitHub with a pull request using
-a static site datafile. Yes, you can.
-
-**Talks, talks, talks!**
-
-Present about a great static site generator, tool, or
-practice, for example.
-
-![](../i/viennahtml.png)
