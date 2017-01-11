@@ -1,5 +1,5 @@
 ---
-title:     Starter Sample (Blank Theme) - Habits
+title:     Starter Sample (Blank5 Theme) - Habits
 author:    John Doe
 date:      March 22, 2017
 ---

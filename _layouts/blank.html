@@ -75,7 +75,13 @@
 
 
 <div class="presentation">
-  {{ content }}
+
+{% include slides.html content=content
+                       title  =page.title
+                       author =page.author
+                       date   =page.date
+ %}
+
 </div> <!-- presentation -->
 
 </body>

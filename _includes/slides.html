@@ -1,0 +1,35 @@
+<!--
+  note: use this include "macro" to split/break content into slides
+   for now use heading 1 (h1) for breaks
+    skip "plain" h1 e.g. <h1>
+    only break on <h1 id=      or
+                  <h1 class=
+ -->
+
+
+<div class="slide">
+  <h1>{{ include.title }}</h1>
+  <h2>{{ include.author }}</h2>
+  <h3>{{ include.date }}</h3>
+
+  <p class="help">
+    Usage: <br>
+    Use space to browse slides.<br>
+    Use the key t (for toggle) to toggle between
+    presentation and overview mode.<br>
+  </p>
+</div><!-- slide -->
+
+
+{% assign slides = include.content
+     | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
+     | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
+     | replace_first: '<!-- @SLIDE -->', ''
+     | split: '<!-- @SLIDE -->'
+ %}
+
+{% for slide in slides %}
+<div class="slide">
+  {{ slide }}
+</div><!-- slide -->
+{% endfor %}

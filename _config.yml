@@ -11,7 +11,7 @@ defaults:
     path: ""
     type: talks
   values:
-    layout: talk
+    layout: blank
 
 
 #########################
