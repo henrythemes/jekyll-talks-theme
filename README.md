@@ -5,7 +5,12 @@ A jekyll theme for talks using the
 
 ## How-to Add Your Own talks
 
+Step 1: Fork this repo
+
+Step 2: Add your talks to the `_talks/` folder
+
 Replace all sample text files in the `_talks/` folder with your own.
+
 That's it :-)
 
 
@@ -23,6 +28,132 @@ Sample talks include:
 - Starter Sample (Blank Theme) - Habits - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/starter.html), [(Source: `starter.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter.md)
 - Starter Sample (Blank5 Theme) - Habits - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/starter5.html), [(Source: `starter5.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter5.md)
 
+
+
+## Talk Themes
+
+The [S6 slideshow templates / machinery / kit](http://slidekit.github.io)
+lets you theme your talks.
+Built-in themes include:
+
+
+### Blank
+
+Use heading 1 (e.g. `#`) for slide breaks or
+use the `<!-- @SLIDE -->` directive for slide breaks without titles
+(e.g. for slides with images only). Example:
+
+```
+---
+title:     Starter Sample (Blank Theme) - Habits
+author:    John Doe
+date:      March 22, 2017
+---
+
+# In the morning
+{:.fullscreen}
+
+
+# Getting up
+
+- Turn off alarm
+- Get out of bed
+
+
+# Breakfast
+
+- Eat eggs
+- Drink coffee
+
+
+# In the evening
+{:.fullscreen}
+
+
+# Dinner
+
+- Eat spaghetti
+- Drink wine
+- Browse slide show
+
+
+<!-- @SLIDE -->
+
+![](../i/slideshow.png)
+
+
+# Going to sleep
+
+- Get in bed
+- Count sheep
+```
+
+(Source: [`_talks/starter.md`](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter.md))
+
+
+To change the colors, typography, etc.
+see the styles in `css/blank.scss`.
+
+
+### Blank5
+
+Use heading 1 (e.g. `#`) for the title (note: gets auto-added :-) from the front matter,
+use heading 2 for section breaks and
+use heading 3 for slide breaks or
+use the `<!-- @SLIDE -->` directive for slide breaks without titles
+(e.g. for slides with images only). Example:
+
+```
+---
+title:     Starter Sample (Blank5 Theme) - Habits
+author:    John Doe
+date:      March 22, 2017
+---
+
+## In the morning
+
+### Getting up
+
+- Turn off alarm
+- Get out of bed
+
+### Breakfast
+
+- Eat eggs
+- Drink coffee
+
+
+## In the evening
+
+### Dinner
+
+- Eat spaghetti
+- Drink wine
+- Browse slide show
+
+
+<!-- @SLIDE -->
+
+![](../i/slideshow.png)
+
+
+### Going to sleep
+
+- Get in bed
+- Count sheep
+```
+
+(Source: [`_talks/starter5.md`](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter5.md))
+
+To change the colors, typography, etc.
+see the styles in `css/blank5.scss`.
+
+
+
+## Alternatives
+
+For alternative talk templates (e.g. reveal.js, deck.js, impress.js, shower, etc.)
+see the [Slide Show (S9) templates](https://github.com/slideshow-templates) (all Jekyll-compatible).
 
 
 ## License
