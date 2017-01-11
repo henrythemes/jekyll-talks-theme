@@ -1,5 +1,6 @@
 ---
-title: Talks
+title:  Talks
+layout: default
 ---
 
 Talks
