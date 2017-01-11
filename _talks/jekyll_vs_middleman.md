@@ -1,6 +1,7 @@
 ---
 title:  Stay Static - Jekyll vs Middleman -  Build Static (Web) Sites w/ Ruby
 author: Gerald Bauer
+date:   2016-03-03
 ---
 
 

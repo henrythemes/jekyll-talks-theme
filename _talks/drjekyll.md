@@ -1,6 +1,7 @@
 ---
-title:  Dr Jekyll and Mr Hyde - Build Static Sites in Ruby
+title:  Dr Jekyll and Mr Hyde - Build Static (Web) Sites w/ Ruby
 author: Gerald Bauer
+date:   2015-10-15
 ---
 
 

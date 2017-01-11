@@ -8,7 +8,7 @@ Talks:
 
 **{{ talk.title }}** - [(Slides)]({{ talk.url | relative_url }})<br>
 by {{ talk.author }}<br>
-{{ talk.date }}
+{{ talk.date | date: "%A, %B %d, %Y" }}
 
 {% endfor %}
 
