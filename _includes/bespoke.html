@@ -1,7 +1,9 @@
 <!--
-  note: use this include "macro" to split/break content into slides
-   for now use two or more newlines for breaks
- -->
+ for now use heading 1 (h1) for breaks
+    skip "plain" h1 e.g. <h1>
+    only break on <h1 id=      or
+                  <h1 class=
+-->
 
 <section>
    <h1>
@@ -17,34 +19,9 @@
  </section>
 
 
-
-<!-- trick: capture newlines
-   todo: check - can we use "literal" newlines in string e.g. '\n' is not working - yes, no?
-  -->
-
-<!-- two newlines / blank lines -->
-{% capture nl2 %}
-
-{% endcapture %}
-
-<!-- three newlines / blank lines -->
-{% capture nl3 %}
-
-
-{% endcapture %}
-
-<!-- four newlines / blank lines -->
-{% capture nl4 %}
-
-
-
-{% endcapture %}
-
-
 {% assign slides = include.content
-     | replace: nl4, '<!-- @SLIDE -->'
-     | replace: nl3, '<!-- @SLIDE -->'
-     | replace: nl2, '<!-- @SLIDE -->'
+     | replace: '<h1 id=', '<!-- @SLIDE --><h1 id='
+     | replace: '<h1 class=', '<!-- @SLIDE --><h1 class='
      | replace_first: '<!-- @SLIDE -->', ''
      | split: '<!-- @SLIDE -->'
  %}
