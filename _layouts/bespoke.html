@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="author"      content="{{ page.author }}">
+  </head>
+  <body>
+    <article id="presentation">
+
+    {% include bespoke.html content=content
+                            title  =page.title
+                            author =page.author
+                            date   =page.date
+     %}
+    
+    </article>
+    <script src="js/bespoke.bundle.js"></script>
+  </body>
+</html>
