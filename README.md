@@ -1,7 +1,10 @@
 # Jekyll Talks Theme
 
-A jekyll theme for talks using the
-[S6 slideshow templates / machinery / kit](http://slidekit.github.io).
+A jekyll theme for talks. Layouts include:
+
+- [S6 slideshow templates / machinery / kit](http://slidekit.github.io) w/ blank 'n' blank5 styles
+- [Bespoke.js](https://github.com/bespokejs) w/ cube styles
+
 
 ## How-to Add Your Own talks
 
@@ -20,6 +23,8 @@ See a live demo @ [`henrythemes.github.io/jekyll-talks-theme` »](http://henryth
 
 Sample talks include:
 
+_Using S6 / Slidekit_
+
 - Dr Jekyll and Mr Hyde - Build Static (Web) Sites w/ Ruby - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/drjekyll.html), [(Source: `drjekyll.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/drjekyll.md)
 - Stay Static - Jekyll vs Middleman - Build Static (Web) Sites w/ Ruby - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/jekyll_vs_middleman.html), [(Source: `jekyll_vs_middleman.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/jekyll_vs_middleman.md)
 
@@ -27,6 +32,12 @@ Sample talks include:
 
 - Starter Sample (Blank Theme) - Habits - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/starter.html), [(Source: `starter.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter.md)
 - Starter Sample (Blank5 Theme) - Habits - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/starter5.html), [(Source: `starter5.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/starter5.md)
+
+<!-- break -->
+
+_Using Bespoke.js_
+
+- A Bespoke Ecosystem (Cube Theme) - [(Slides)](https://henrythemes.github.io/jekyll-talks-theme/talks/bespoke.html), [(Source: `bespoke.md`)](https://github.com/henrythemes/jekyll-talks-theme/blob/master/_talks/bespoke.md)
 
 
 
