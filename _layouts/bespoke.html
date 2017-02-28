@@ -4,6 +4,12 @@
      <meta charset="utf-8">
      <title>{{ page.title }}</title>
      <meta name="author" content="{{ page.author }}">
+
+    <!-- add some inline styles for code block ++ fix later e.g. add to theme??
+      --> 
+   <style>
+     pre code { text-align: left; }
+   </style>
   </head>
   <body>
     <article id="presentation">
@@ -17,10 +23,5 @@
     
     </article>
     <script src="{{ 'js/bespoke.bundle.js' | relative_url }}"></script>
-   <style>
-    <!-- add some inline styles for code block ++ fix later e.g. add to theme??
-      --> 
-     pre code { text-align: left; }
-   </style>
   </body>
 </html>
