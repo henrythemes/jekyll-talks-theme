@@ -31,7 +31,7 @@ layout:    bespoke
 
 ## Plugin first design
 
-``` 
+``` js
 bespoke.from('#presentation', [
   classes(),
   keys(),
@@ -44,7 +44,7 @@ bespoke.from('#presentation', [
 
 ## Every plugin is a separate module
 
-```
+``` js
 var bespoke  = require('bespoke'),
     classes  = require('bespoke-classes'),
     keys     = require('bespoke-keys'),
@@ -55,7 +55,7 @@ var bespoke  = require('bespoke'),
 
 ## Plugins are just functions
 
-```
+``` js
 module.exports = function(options) {
   return function(deck) {
     deck.next();
