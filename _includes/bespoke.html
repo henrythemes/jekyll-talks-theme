@@ -6,12 +6,9 @@
                   <h1 class=
  -->
 <section>
-   <h1>
-     {{ include.title }}
-     <br>
-     <!-- todo: add subtitle here ?? -->
-   </h1>
-    <p>
+  <h1>{{ include.title }}</h1>
+  <h2>{{ include.subtitle }}</h2>
+  <p>
      {{ include.author }}
      <br>
      {{ include.date | date: "%A, %B %d, %Y" }}
