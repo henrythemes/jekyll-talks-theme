@@ -4,14 +4,20 @@
      <meta charset="utf-8">
      <title>{{ page.title }}</title>
      <meta name="author" content="{{ page.author }}">
+  <style>
+    <!-- add some inline styles for code block -- fix later e.g. add to theme??
+      --> 
+    pre code { text-align: left; }
+  </style>
   </head>
   <body>
     <article id="presentation">
 
-    {% include bespoke.html content=content
-                            title  =page.title
-                            author =page.author
-                            date   =page.date
+    {% include bespoke.html content  = content
+                            title    = page.title
+                            subtitle = page.subtitle
+                            author   = page.author
+                            date     = page.date
      %}
     
     </article>
