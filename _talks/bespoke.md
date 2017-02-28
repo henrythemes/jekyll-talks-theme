@@ -31,31 +31,31 @@ layout:    bespoke
 
 ## Plugin first design
 
-``` js
+``` 
 bespoke.from('#presentation', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet'),
-              etc...
-             ]);
+  classes(),
+  keys(),
+  touch(),
+  bullets('li, .bullet'),
+  etc...
+]);
 ```
 
 
 ## Every plugin is a separate module
 
-``` js
-var bespoke = require('bespoke'),
-     classes = require('bespoke-classes'),
-     keys = require('bespoke-keys'),
-     touch = require('bespoke-touch'),
-     bullets = require('bespoke-bullets');
+```
+var bespoke  = require('bespoke'),
+    classes  = require('bespoke-classes'),
+    keys     = require('bespoke-keys'),
+    touch    = require('bespoke-touch'),
+    bullets  = require('bespoke-bullets');
 ```
 
 
 ## Plugins are just functions
 
-``` js
+```
 module.exports = function(options) {
   return function(deck) {
     deck.next();
