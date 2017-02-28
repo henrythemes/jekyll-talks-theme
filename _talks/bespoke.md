@@ -4,28 +4,23 @@
 ###
 
 title:     A Bespoke Ecosystem
+subtitle:  On front-end modularity
 author:    Mark Dalgleish
 date:      July 31, 2014
 layout:    bespoke
 ---
 
 
-# A Bespoke Ecosystem
-
-## On front-end modularity
+## Why Bespoke?
 
 
-
-# Why Bespoke?
-
-
-# Bespoke.js is a blank canvas
+## Bespoke.js is a blank canvas
 
 
-# Most frameworks are<br />busy **adding** features
+## Most frameworks are<br />busy **adding** features
 
 
-# Bespoke features over time:
+## Bespoke features over time:
 
 - Manages deck state
 - Handles keyboard input
@@ -34,8 +29,7 @@ layout:    bespoke
 - Allows plugins
 
 
-# Plugin first design
-
+## Plugin first design
 
 ``` js
 bespoke.from('#presentation', [
@@ -43,55 +37,55 @@ bespoke.from('#presentation', [
               keys(),
               touch(),
               bullets('li, .bullet'),
-              etc&hellip;
-            ]);
+              etc...
+             ]);
 ```
 
 
-# Every plugin is a separate module
+## Every plugin is a separate module
 
 ``` js
-            var bespoke = require('bespoke'),
-                classes = require('bespoke-classes'),
-                keys = require('bespoke-keys'),
-                touch = require('bespoke-touch'),
-                bullets = require('bespoke-bullets');
+var bespoke = require('bespoke'),
+     classes = require('bespoke-classes'),
+     keys = require('bespoke-keys'),
+     touch = require('bespoke-touch'),
+     bullets = require('bespoke-bullets');
 ```
 
 
-# Plugins are just functions
+## Plugins are just functions
 
 ``` js
-            module.exports = function(options) {
-              return function(deck) {
-                deck.next();
-                deck.prev();
-                // etc&hellip;
-              };
-            };
+module.exports = function(options) {
+  return function(deck) {
+    deck.next();
+    deck.prev();
+    // etc...
+  };
+};
 ```
 
 
-# The API is inherently modular
+## The API is inherently modular
 
 - Using it teaches you how it works
 - No black box, small approachable modules
 - Users are encouraged to view source
 
 
-# Authoring experience?
+## Authoring experience?
 
 
-# Perfect for fighting<br />"fear of the imperfect solution"
+## Perfect for fighting<br />"fear of the imperfect solution"
 
 
-# Plugins provide a safe space for your crazy experiments
+## Plugins provide a safe space for your crazy experiments
 
 
-# Managing versions is simplified
+## Managing versions is simplified
 
 
-# Great for maintenance mode
+## Great for maintenance mode
 
 - Bugs are minimised
 - Mistaken bug reports are also minimised
@@ -99,4 +93,5 @@ bespoke.from('#presentation', [
 - You get to keep your sanity
 
 
-# To be continued
+## To be continued
+
