@@ -1,0 +1,57 @@
+<!--
+  note: use this include "macro" to split/break content into slides
+   for now use two or more newlines for breaks
+ -->
+
+<section>
+   <h1>
+     {{ include.title }}
+     <br>
+     <!-- todo: add subtitle here ?? -->
+   </h1>
+    <p>
+     {{ include.author }}
+     <br>
+     {{ include.date | date: "%A, %B %d, %Y" }}
+   </p>
+ </section>
+
+
+
+<!-- trick: capture newlines
+   todo: check - can we use "literal" newlines in string e.g. '\n' is not working - yes, no?
+  -->
+
+<!-- two newlines / blank lines -->
+{% capture nl2 %}
+
+{% endcapture %}
+
+<!-- three newlines / blank lines -->
+{% capture nl3 %}
+
+
+{% endcapture %}
+
+<!-- four newlines / blank lines -->
+{% capture nl4 %}
+
+
+
+{% endcapture %}
+
+
+{% assign slides = include.content
+     | replace: nl4, '<!-- @SLIDE -->'
+     | replace: nl3, '<!-- @SLIDE -->'
+     | replace: nl2, '<!-- @SLIDE -->'
+     | replace_first: '<!-- @SLIDE -->', ''
+     | split: '<!-- @SLIDE -->'
+ %}
+
+
+{% for slide in slides %}
+<section>
+  {{ slide }}
+</section>
+{% endfor %}
